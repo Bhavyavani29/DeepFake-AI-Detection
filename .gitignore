@@ -1,0 +1,23 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Temporary files
+*.zip
