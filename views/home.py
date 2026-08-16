@@ -9,7 +9,7 @@ from views.shared import go_to, show_login_dialog
 load_dotenv()
 
 # Point this at your own image, or override with HERO_IMAGE_PATH in .env
-HERO_IMAGE_PATH = os.getenv("HERO_IMAGE_PATH", "assets/hero_image.png")
+HERO_IMAGE_PATH = os.getenv("HERO_IMAGE_PATH", "assets/hero_image.jpg")
 
 
 def _load_image_as_data_uri(path: str) -> str | None:
